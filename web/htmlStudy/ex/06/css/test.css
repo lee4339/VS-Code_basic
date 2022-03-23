@@ -1,0 +1,19 @@
+#title{
+    color: aqua;
+    font-size: xx-large;
+}
+.title2{
+    color: blue !important;
+    font-size: medium;
+    text-decoration: underline;
+}
+.title3{
+    font-size: small;
+}
+h1, .title3{
+    color: pink;
+}
+
+.naver {
+    color: lime;
+}
