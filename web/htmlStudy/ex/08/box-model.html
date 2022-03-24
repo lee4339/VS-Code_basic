@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            display: inline-block;
+            width: 100px   ;
+            height: 100px;
+            background-color: blue;
+        }
+        .box2{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .box3{
+            box-sizing: border-box;
+            margin: 10px;
+            padding: 30px 10px 20px; 
+            /* 탑부터 시계방향 사이즈 지정, 위 오른쪽만 지정해도 반대영역 같은 사이즈로 지정가능 */
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+
+        .test-input{
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        .menu{
+            padding: 10px 20px;
+            margin: 10px 20px;
+            color: black;
+            text-decoration: none;
+            background-color: burlywood;
+        }
+
+        .test-container{
+            padding: 100px 200px;
+            background-color: antiquewhite;
+        }
+
+        .test-header{
+            box-sizing: border-box;
+            border: 3px solid black;
+            padding: 30px;
+
+            width: 100%;
+            height: 300px;
+            background-color: blue;
+        }
+
+        .test-main{
+            width: 100%;
+            height: 600px;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>제목</h1>
+    <p>내용이 들어 있어요.</p>
+    <div>
+        text
+    </div>
+    <input type="text">
+    <input type="text">
+
+    <div class="box1">test</div>
+    <div class="box2">test</div>
+
+    <div class="box3">
+        <input type="text" class="test-input">
+        
+    </div>
+
+    <div>
+        <a href="#" class="menu">메뉴1</a>
+        <a href="#" class="menu">메뉴2</a>
+        <a href="#" class="menu">메뉴3</a>
+    </div>
+
+    <div class="test-container">
+        <div class="test-header">
+        </div>
+         <div class="test-main">
+        </div>
+    </div>
+</body>
+</html>
