@@ -1,0 +1,47 @@
+body {
+    overflow-y: scroll;
+}
+
+.container {
+    display: flex;
+}
+
+.m-container {
+    display: flex;
+    width: 100%;
+}
+
+.a-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 32px auto 0px;
+    padding-bottom: 32px;
+    width: 935px;
+    height: 799px;
+    background-color: rgb(44, 31, 231);
+}
+
+.l-content {
+    margin: 0px 32px 12px 0px;
+    width: 380px;
+    background-color: brown;
+}
+.l-content-img {
+    margin-bottom:  18px;
+    width: 100%;
+}
+
+.r-content {
+    margin: 12px;
+
+    width: 350px;
+    height: 755px;
+    background-color: chartreuse;
+}
+
+.f-container {
+    display: flex;
+}
+
