@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function test()  {
+            console.log(num1);
+        }
+
+        test();
+
+        function test2(){
+            test();
+        }
+        var num1 = 10;
+        var num1 = 5;
+        test();
+        var num1 = 30;
+        var num1 = 80;
+
+
+        console.log(num1);
+        let num2 = 20;
+        console.log(num2);
+        //var num2 = 20;  --> var는 중복되나 let은 안됨
+        console.log(num2)
+
+    </script>
+    
+</body>
+</html>
