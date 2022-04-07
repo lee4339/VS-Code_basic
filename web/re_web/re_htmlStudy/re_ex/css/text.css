@@ -1,0 +1,42 @@
+/*
+태그는 타이틀 없이 그냥사용
+p{
+    color: red;
+    font-size: 100px;
+} 
+*/
+
+/*
+*{
+    color: red;
+    font-size: 100px;  
+}
+*/
+
+/* id의 타이틀 # */
+#title{
+    color: aqua;
+    font-size: xx-large;
+}
+
+/* class의 타이틀 . */
+
+.title2{
+    color: black;
+    font-size: medium;
+}
+
+.title3{
+    font-size: small;
+}
+
+
+/* 중복 적용은 그룹으로*/
+h1, .title3{
+    color: red !important;
+}
+
+.naver{
+    color: greenyellow;
+
+}
