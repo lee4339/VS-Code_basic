@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background-color: blanchedalmond;
+        }
+        .container2 {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(134, 94, 33);
+        }
+
+        .box1{
+            /*
+            기본적으로 스태틱포지션을 가짐, 기본값. 원래 흐르던 방향으로 흐름
+            relative : 부모요소에 영향을 받음
+            absolute : 부모요소로 부터 마음대로 위치를 잡을 수 있음
+            */
+            position: absolute;
+            top: 100px;
+            left: 100px;
+
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container2">
+
+    </div>
+    <div class="container">
+        <div class="box1"></div>
+    </div>
+</body>
+</html>
