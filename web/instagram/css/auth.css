@@ -46,7 +46,7 @@ body {
 }
 
 .f-container {
-
+    display: flex;
 }
 
 .item-box {

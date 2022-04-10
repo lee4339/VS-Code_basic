@@ -1,0 +1,51 @@
+body{
+    overflow-y: scroll;
+    /*
+    왼쪽 스크롤
+    밑으로 넘어가는 공간이 있으면 auto사용
+    */
+}
+
+.container{
+    display: flex;
+}
+
+.m-container{
+    display: flex;
+    width: 100%; /*가운데 정렬 -> 아티클에서 양쪽 오토*/
+}
+
+.a-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 32px auto 0px ;
+    padding-bottom: 32px;
+    width: 935px;
+    height: 799px;
+
+}
+
+.l-content{
+    margin: 0px 32px 12px 0px;
+
+    width: 380px;
+}
+
+.l-content-imges{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.r-content{
+    margin-top: 12px;
+    width: 350px;
+    height: 755px;
+
+    background-color: blue;
+}
+
+.f-container{
+    display: flex;
+}
