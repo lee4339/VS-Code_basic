@@ -201,3 +201,6 @@ body {
 .r-content-footer {
     height: 102px;
 }
+.r-content-footer img{
+    width: 100%;
+}
