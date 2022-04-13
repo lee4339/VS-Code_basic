@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*함수 자체가 변수가 됨*/
+        let click = function (a, b){
+            return a + b;
+        }
+
+        console.log(click(10, 20));
+
+        console.log((function (a, b) {
+            return a + b;
+        })(100, 200));
+
+        let click2 = (a, b) => a + b;
+    
+        console.log(click2(40, 50));
+
+    </script>
+    
+</body>
+</html>
