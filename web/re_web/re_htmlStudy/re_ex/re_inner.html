@@ -15,7 +15,7 @@
 		var now = new Date();
 
 		function inntext(){
-			document.getElementById("current").innerText = now
+			document.getElementById("current").innerText = "<em>" + now + "</em>"; //em태그 안먹음 --> 단순 텍스트
 		}
 		function innhtml() {
 			document.getElementById("current").innerHTML = "<em>" + now + "</em>";
