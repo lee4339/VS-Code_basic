@@ -27,11 +27,25 @@
     </div>
 
     <script>
+        const box = document.querySelector(".box");
         const imgBtn = document.querySelector(".img-btn"); //여러개가 아니기에 All 사용을 안함
         const img = document.querySelector("img");
 
-        imgBtn.onclick = () => {
+        box.style.backgroundColor == 'blue';
+
+        img.onclick = () => {
+
+                if (box.style.backgroundColor == 'blue') {
+                    box.style.backgroundColor = 'red';
+                } else {
+                    box.style.backgroundColor = 'blue';
+                }
+            }
+
+        imgBtn.onclick = (event) => {
             console.log(img.getAttribute('src'));
+            // img.src = 
+            // img.style.color =
             if(img.getAttribute('src') == 'images/cup-1.png'){
                 img.setAttribute('src', 'images/cup-2.png');
             }else{
