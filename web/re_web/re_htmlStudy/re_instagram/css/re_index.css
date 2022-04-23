@@ -1,0 +1,58 @@
+.m-content {
+    display: flex;
+    margin: 0 auto;
+    width: 1146.4px;
+    height: 855px;
+}
+
+.m-content-r {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px 0px 30px;
+    border: 1px solid gray;
+    width: 237px;
+    height: 823px;
+}
+
+.m-content-r .r-content  {
+    box-sizing: border-box;
+    width: 236px;
+    height: 52px;
+
+    padding: 16px 16px 16px 30px;
+
+    font-size: 20px;
+}
+
+.m-content-l {
+    display: flex;
+    flex-direction: column;
+    width: 696px ;
+    height: 823px;
+
+    margin: 30px 0px 0px 0px;
+    border: 1px solid gray;
+
+}
+
+.l-profile {
+    display: flex;
+    width: 696px;
+    height: 42px;
+}
+
+.l-profile-img {
+    width: 38px;
+}
+
+.l-profile > h1 {
+    position: relative;
+    width: 119.7px; 
+    height: 22px; 
+}
+.l-profile-btn { 
+    position: absolute;
+    margin-top: 20px;
+    width: 119.7px; 
+    height: 18px; 
+}

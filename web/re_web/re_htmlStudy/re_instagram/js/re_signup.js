@@ -2,7 +2,15 @@ const input_datas = document.querySelectorAll('.input-data');
 const password_visible = document.querySelector('.password-visible');
 
 password_visible.onclick = () => {
-    
+    const input = input_datas[3].querySelector('input');
+    console.log(input.type);
+    if(input.type =='password'){
+        input.type = 'text';
+        password_visible.innerText = '숨기기';
+    } else {
+        input.type = 'password';
+        password_visible.innerText = '비밀번호 표시';
+    }
 }
 
 for(let i = 0; i < input_datas.length; i++){
